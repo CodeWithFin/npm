@@ -1,4 +1,4 @@
-import superheroes from 'superheroes';
-superheroes;
+import {randomSuperhero} from 'superheroes';
 
-console.log(superheroes);
+var supe = randomSuperhero();
+console.log(`I am ${supe}`)
