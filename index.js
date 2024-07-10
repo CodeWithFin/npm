@@ -1,4 +1,4 @@
-var generateName = require('sillyname');
-var sillyName = generateName();
+import superheroes from 'superheroes';
+superheroes;
 
-console.log(sillyName);
+console.log(superheroes);
